@@ -47,6 +47,11 @@ header section{
 .header__right img{
     width: 60px;
 }
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--primary-black);
+}
 .firstSection{
     position: relative;
     display: flex;
@@ -55,7 +60,6 @@ header section{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background-color: var(--primary-black);
 }
 .firstSection__imgPrincipal{
     width: 200px;
